@@ -1,0 +1,44 @@
+﻿Build started 25/09/2014 22:54:57.
+     1>Project "F:\Main folders\Documents\Work and Development\University\Year 4\Real-Time Computer Graphics\Assignment 1\Dx11 Mesh Processing\Dx11demo.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\\Include" /IEffects11 /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Source\CGRasteriserStage.cpp Source\main.cpp
+         Skipping... (no relevant changes detected)
+         main.cpp
+         CGRasteriserStage.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Main folders\Documents\Work and Development\University\Year 4\Real-Time Computer Graphics\Assignment 1\Dx11 Mesh Processing\Debug\Dx11demo.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\\Lib\x86" /LIBPATH:Effects11 CGImport3.lib CoreStructures.lib Effects11.lib d3d11.lib d3dx11d.lib D3DCompiler.lib dxerr.lib dxgi.lib dxguid.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Dx11demo.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\Main folders\Documents\Work and Development\University\Year 4\Real-Time Computer Graphics\Assignment 1\Dx11 Mesh Processing\Debug\Dx11demo.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Main folders\Documents\Work and Development\University\Year 4\Real-Time Computer Graphics\Assignment 1\Dx11 Mesh Processing\Debug\Dx11demo.lib" /MACHINE:X86 Debug\WavefrontObjImporter.obj
+         Debug\DCMeshData.obj
+         Debug\JStrip.obj
+         Debug\DCStripification.obj
+         Debug\CGBaseModel.obj
+         Debug\CGBasicGrass.obj
+         Debug\CGBasicTerrain.obj
+         Debug\CGCube.obj
+         Debug\CGModelInstance.obj
+         Debug\CGOutputMergerStage.obj
+         Debug\CGPrincipleAxes.obj
+         Debug\CGPyramid.obj
+         Debug\CGRasteriserStage.obj
+         Debug\CGSnowParticles.obj
+         Debug\CGTextureLoader.obj
+         Debug\CGVertexBasic.obj
+         Debug\CGVertexExt.obj
+         Debug\CGPipeline.obj
+         Debug\HermiteCurve.obj
+         Debug\HLSLFactory.obj
+         Debug\main.obj
+         Debug\CGClock.obj
+         Debug\CGObject.obj
+         Debug\Triangle.obj
+     1>WavefrontObjImporter.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+     1>CoreStructures.lib(GUMatrix4.obj) : warning LNK4204: 'F:\Main folders\Documents\Work and Development\University\Year 4\Real-Time Computer Graphics\Assignment 1\Dx11 Mesh Processing\Debug\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>CoreStructures.lib(GUMemory.obj) : warning LNK4204: 'F:\Main folders\Documents\Work and Development\University\Year 4\Real-Time Computer Graphics\Assignment 1\Dx11 Mesh Processing\Debug\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>CoreStructures.lib(GUVector4.obj) : warning LNK4204: 'F:\Main folders\Documents\Work and Development\University\Year 4\Real-Time Computer Graphics\Assignment 1\Dx11 Mesh Processing\Debug\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+         Dx11demo.vcxproj -> F:\Main folders\Documents\Work and Development\University\Year 4\Real-Time Computer Graphics\Assignment 1\Dx11 Mesh Processing\Debug\Dx11demo.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"F:\Main folders\Documents\Work and Development\University\Year 4\Real-Time Computer Graphics\Assignment 1\Dx11 Mesh Processing\Debug\Dx11demo.exe;#1" /manifest Debug\Dx11demo.exe.intermediate.manifest
+     1>Done Building Project "F:\Main folders\Documents\Work and Development\University\Year 4\Real-Time Computer Graphics\Assignment 1\Dx11 Mesh Processing\Dx11demo.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.23
